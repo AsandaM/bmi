@@ -1,0 +1,25 @@
+.container-md{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 40%;
+    gap: 5%;
+
+}
+
+label{
+    text-align: end;
+}
+
+p{
+    padding-top: 10%;
+    margin-left: 20%;
+
+}
+
+body{
+    background-color: aqua;
+}
+
+button:hover{
+    border-color: red;
+}
